@@ -1,0 +1,400 @@
+.banner-article-details {
+    width: 100%;
+    height: auto;
+}
+
+.banner-article-details img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title-article-details {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    color: #000000;
+    padding: 32px;
+    margin-top: 154px;
+}
+
+.title-article-details h1 {
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+    color: #000000;
+}
+.title-article {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    color: #000000;
+    padding: 32px;
+    
+}
+
+.title-article h1 {
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.banner-description-article-details {
+    width: 52%;
+    text-align: center;
+    padding: 0 20px 20px 20px;
+    margin: auto;
+
+}
+
+.banner-description-article-details p {
+    font-family: 'SF Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.article-details {
+    margin: auto;
+    width: calc(50% - 35px);
+}
+
+.author-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.section-border {
+    margin: 20px;
+    border-top: #000000 2px solid;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+}
+
+.author-img {
+    width: 56px;
+    height: 56px;
+    
+}
+
+.author-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+}
+
+.author-name p {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding-left: 16px;
+
+}
+
+.blog-date p {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 16px;
+}
+
+.author-section-rs {
+    display: flex;
+    align-items: center;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    height: 44px;
+
+}
+
+.author-section-rs div {
+    width: 22px;
+    height: 22px;
+    margin: 12px;
+}
+
+.author-section-rs div img {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.article-content {
+    margin: auto;
+
+}
+
+.article-content p {
+    font-family: 'New York Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+
+}
+
+.blog-img {
+    width: 680px;
+    margin: auto;
+
+}
+
+.blog-img img {
+    width: 100%;
+    
+}
+
+.blog-img p {
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.rs-article-content {
+    display: flex;
+    margin: 16px 0;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+
+.rs-article-content div {
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.rs-article-content img {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+
+.article-content a {
+    color: #000000;
+}
+
+.auther-descrip {
+    display: flex;
+    margin: 20px 0;
+    padding: 25px 0;
+    border-top: 1px dashed #000000;
+    
+
+}
+
+.auther-descrip-img {
+    width: 70px;
+
+}
+
+.auther-descrip-img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 35px;
+}
+
+.auther-descrip-p p {
+
+    
+    font-family: 'New York Small';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #0C0C0C;
+    margin-left: 8px;
+
+}
+
+.name-bold {
+    font-weight: bold;
+}
+
+.section-divider {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.divider-content {
+    margin: 0 auto;
+    width: 82px;
+}
+
+.divider-content img {
+    width: 100%;
+}
+
+.other-blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    max-width: 170vh;
+}
+
+.other-blog-img {
+    width: 45vh;
+    margin: 8px;
+}
+
+.other-blog-img img {
+    width: 100%;
+}
+
+.other-blog-img p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: SF Pro Display;
+}
+
+.title {
+    margin: auto;
+    width: 367px;
+    color: #000000;
+    padding: 32px;
+}
+
+.title-other-blog h1 {
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 100%;
+    text-align: center;
+    color: #000000;
+}
+
+.newsletter {
+    border: #000000 1px solid;
+    border-top: #000000 5px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    margin: 64px auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+}
+/* Responsive */
+@media only screen and (max-width: 768px) {
+ 
+    .title-article-details {
+        width: 90%;
+    }
+    .title-article-details h1 {
+        font-size: 36px;
+    }
+    .title-article {
+        width: 90%;
+    }
+    .title-article h1 {
+        font-size: 36px;
+    }
+    .banner-description-article-details {
+        width: 100%;
+    }
+    .banner-description-article-details p {
+        font-size: 16px;
+    }
+    .article-details {
+        margin: auto;
+        width: 90%;
+    }
+    .blog-img {
+        width: 100vw;
+    }
+    
+    .blog-img img {
+        width: 100%;
+    }
+    .other-blog {
+       
+        max-width:95%;
+    }
+    
+    .other-blog-img {
+        width: 100vw;
+        margin: 8px;
+    }
+    .other-blog-img p {
+        
+        font-size: 22px;
+  
+    }
+    .newsletter {
+        border: #000000 1px solid;
+        border-top: #000000 5px solid;
+        border-left: none;
+        border-right: none;
+        width: 100%;
+       
+    }
+    input[type="text"] {
+        padding: 10px;
+        width: 60%;
+        box-sizing: border-box;
+        border: 1px solid #000000;
+
+    }
+    
+}

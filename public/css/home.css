@@ -1,0 +1,129 @@
+.banner {
+    width: 854px;
+    height: 533px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title {
+    margin: auto;
+    width: 858px;
+    text-align: center;
+    color: #000000;
+    padding: 32px;
+}
+
+.title h1 {
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.banner-description {
+    width: 592px;
+    text-align: center;
+    padding: 0 20px 20px 20px;
+    margin: auto;
+    border-bottom: 2px solid #000;
+}
+
+.banner-description p {
+    font-family: 'SF Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    text-align: center;
+    color: #000000;
+}
+
+
+.article-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 45%;
+    margin: auto;
+}
+
+.article {
+    width: calc(50% - 10px);
+    margin-bottom: 64px;
+}
+.article a {
+    text-decoration: none;
+}
+
+.article img {
+    width: 100%;
+    height: auto;
+}
+
+.article p {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+    .banner {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        margin-top: 200px;
+    }
+    .banner img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .sm{
+        margin: 0;
+    }
+    .title {
+        width: 90%;
+    }
+    .title h1 {
+        font-size: 36px;
+    }
+
+    .banner-description {
+        width: 100%;
+    }
+    .banner-description p {
+        font-size: 16px;
+    }
+
+    .article-list {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .article {
+        width: 100%;
+        margin-bottom: 42px;
+
+    }
+
+    .article img {
+        width: 100%;
+        height: auto;
+    }
+}
